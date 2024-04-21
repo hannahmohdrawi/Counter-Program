@@ -1,0 +1,30 @@
+body{
+    background-color: lightblue;
+}
+
+#countLabel{
+    display:block;
+    text-align: center;
+    font-size: 12em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#btnContainer{
+    text-align: center;
+}
+
+.buttons{
+    padding: 10px, 20px;
+    font-size: 1.5em;
+    color:black;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    /*Changes a cursor to a pointer when you hover over button*/
+    cursor: pointer;
+    transition: background-color 0.25s;
+
+}
+
+.buttons:hover{
+    background-color: hsl(53, 97%, 44%)
+}
